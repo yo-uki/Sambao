@@ -1,0 +1,25 @@
+version: '2'
+
+services:
+#  cassandra:
+#    image: 'cassandra:latest'
+#    environment:
+#      - 'CASSANDRA_DC=dc1'
+#      - 'CASSANDRA_ENDPOINT_SNITCH=GossipingPropertyFileSnitch'
+#    ports:
+#      - '9042'
+#  postgres:
+#    image: 'postgres:latest'
+#    environment:
+#      - 'POSTGRES_DB=sambao'
+#      - 'POSTGRES_PASSWORD=password123'
+#      - 'POSTGRES_USER=user'
+#    ports:
+#      - '5432:5432'
+  rabbitmq:
+    image: 'rabbitmq:latest'
+    environment:
+      - 'RABBITMQ_DEFAULT_PASS=secret'
+      - 'RABBITMQ_DEFAULT_USER=myuser'
+    ports:
+      - '5672'

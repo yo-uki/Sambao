@@ -1,0 +1,1 @@
+--INSERT INTO s_user (id, login, password, role) VALUES (124, 'ola', '$2a$12$r21oTSlFqIwJVksyjICTGubP1MqnPMhtSml.QRtGWNZcoaEBVwUbm', 'admin');
